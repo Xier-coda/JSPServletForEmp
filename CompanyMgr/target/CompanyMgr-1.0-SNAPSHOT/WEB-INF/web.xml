@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>showdept</servlet-name>
+        <servlet-class>com.bh.action.ShowDeptAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showdept</servlet-name>
+        <url-pattern>/showdept</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>save</servlet-name>
+        <servlet-class>com.bh.action.SaveDeptAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>save</servlet-name>
+        <url-pattern>/savedept</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>del</servlet-name>
+        <servlet-class>com.bh.action.DelDeptAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>del</servlet-name>
+        <url-pattern>/deldept</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>com.bh.action.TestAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test01</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showemp</servlet-name>
+        <servlet-class>com.bh.action.ShowEmpAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showemp</servlet-name>
+        <url-pattern>/showemp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletemp</servlet-name>
+        <servlet-class>com.bh.action.DelEmpAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletemp</servlet-name>
+        <url-pattern>/delemp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>savemp</servlet-name>
+        <servlet-class>com.bh.action.SaveEmpAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>savemp</servlet-name>
+        <url-pattern>/savemp</url-pattern>
+    </servlet-mapping>
+
+</web-app>
